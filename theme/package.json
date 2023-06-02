@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "cd bootstrap-4.5.3 && npm run dist",
+    "watch": "cd bootstrap-4.5.3 && npm run watch",
+    "prebuild": "cp _custom.scss bootstrap.scss bootstrap-4.5.3/scss",
+    "postbuild": "mkdir -p dist && cp -r bootstrap-4.5.3/dist"
+  },
+  "name": "compsass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
