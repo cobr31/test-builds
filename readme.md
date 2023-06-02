@@ -2,14 +2,20 @@
 
 **Environment for testing build and release of apps to potential production environments.**
 
-<h3>Test requirements.</h3>
 
-Verify use of media repositories or cloud storage :    
+**Test environment reference:** https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment
 
-<ol>
-    <li>Images</li>
-    <li>Video</li>
+
+<p> Candidate : </p>
+
+Railway https://docs.railway.app/reference/plans#starter-plan    
+
+<ol>     
+    <li>NODE_ENV set</li>
+    <li>Helmet logging</li>
+    <li>Gzip compression</li>
+    <li>Rate Limiting</li>
 </ol>
    
 
-  <h3><i>Cloudinary</i><h3> 
+
